@@ -9,7 +9,7 @@ import User, { SetUser } from "./hooks/logged";
 import { useState } from "react";
 import LogOut from "./components/admin/logout";
 
-axios.defaults.baseURL = 'http://127.0.0.1:4000/api'
+axios.defaults.baseURL = 'https://turnosws.crisolino.dev/api'
 axios.defaults.withCredentials = true
 axios.defaults.headers.post["Content-Type"] = "application/json";
 
